@@ -1,0 +1,19 @@
+pytest -v
+
+==================================================================== test session starts ====================================================================
+platform win32 -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0 -- F:\Programming\Projects\Python\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: F:\Programming\Projects\Python\weather-api-testing
+collected 9 items                                                                                                                                            
+
+tests/test_api_timeout.py::test_timeout PASSED                                                                                                         [ 11%]
+tests/test_different_cities.py::test_multiple_cities[Delhi-40] PASSED                                                                                  [ 22%]
+tests/test_different_cities.py::test_multiple_cities[Chennai-35] PASSED                                                                                [ 33%]
+tests/test_different_cities.py::test_multiple_cities[Mumbai-32] PASSED                                                                                 [ 44%]
+tests/test_different_cities.py::test_multiple_cities[London-18] PASSED                                                                                 [ 55%]
+tests/test_different_cities.py::test_multiple_cities[Tokyo-28] PASSED                                                                                  [ 66%]
+tests/test_invalid_city.py::test_invalid_city PASSED                                                                                                   [ 77%]
+tests/test_weather.py::test_get_temperature PASSED                                                                                                     [ 88%]
+tests/test_weather_api_call.py::test_get_api_called PASSED                                                                                             [100%]
+
+===================================================================== 9 passed in 0.16s =====================================================================
