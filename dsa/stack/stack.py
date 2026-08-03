@@ -27,3 +27,39 @@ while True:
         break
     else:
         print("Invalid choice")
+
+
+"""
+Output:
+
+Enter the limit of stack: 4
+Enter your Operation (1. Push  2. Pop  3. Exit): 1
+Enter the element: 10
+['10']
+Enter your Operation (1. Push  2. Pop  3. Exit): 1
+Enter the element: 20
+['10', '20']
+Enter your Operation (1. Push  2. Pop  3. Exit): 1
+Enter the element: 30
+['10', '20', '30']
+Enter your Operation (1. Push  2. Pop  3. Exit): 1
+Enter the element: 40
+['10', '20', '30', '40']
+Enter your Operation (1. Push  2. Pop  3. Exit): 1
+Stack is full
+Enter your Operation (1. Push  2. Pop  3. Exit): 2
+Element is removed
+40
+Enter your Operation (1. Push  2. Pop  3. Exit): 2
+Element is removed
+30
+Enter your Operation (1. Push  2. Pop  3. Exit): 2
+Element is removed
+20
+Enter your Operation (1. Push  2. Pop  3. Exit): 2
+Element is removed
+10
+Enter your Operation (1. Push  2. Pop  3. Exit): 2
+Stack is empty
+Enter your Operation (1. Push  2. Pop  3. Exit): 3
+"""
