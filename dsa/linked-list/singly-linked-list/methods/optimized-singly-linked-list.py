@@ -1,6 +1,3 @@
-from types import new_class
-
-
 class Node:
     def __init__(self, value):
         self.value = value
@@ -23,12 +20,11 @@ class OptimizedSinglyLinkedList:
 
         self._size += 1
 
-
     def prepend(self, value):
         new_node = Node(value)
         new_node.next = self.head
         self.head = new_node
-        if self.head is None:
+        if self.tail is None:
             self.tail = new_node
         self._size += 1
 
