@@ -1,4 +1,9 @@
 class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+class SinglyLinkedList:
     def __init__(self):
         self.head = None
         self._size = 0
@@ -61,7 +66,7 @@ class Node:
         return self._size
 
 
-sll = Node()
+sll = SinglyLinkedList()
 sll.append(1)
 sll.append(2)
 sll.append(3)
